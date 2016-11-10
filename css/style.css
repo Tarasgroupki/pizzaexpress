@@ -1,0 +1,1563 @@
+﻿body{
+	background:url("../image/fon4.png") repeat;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+.wrapper{
+	width:100%;
+}
+.form{
+	margin-top:200px;
+	margin-bottom:500px;
+	margin-left:0px;
+}
+#cart_btn{
+	background:url("../image/cart_order1.png") no-repeat;
+        color:white;	
+	text-align:right;
+	font-family:Arial;
+	font-weight:bold;
+	height:30px;
+	width:215px;
+	margin-left:205px;
+}
+.in_cart{
+	text-decoration:none;
+	color:black;
+	margin-left:20px;
+	font-size:18px;
+}
+.delete_from_cart{
+	text-decoration:none;
+	color:black;
+	margin-left:120px;
+	font-size:18px;
+}
+.big_cart{
+	background:white;
+	position:above;
+	margin-bottom:30px;
+	margin-left:20%;
+	min-height:550px;
+	width:750px;
+	padding-bottom:120px;
+}
+.all_in{
+	font-weight:bold;
+	font-size:30px;
+	color:red;
+	position:relative;
+	bottom:10px;
+}
+.big_cart_btn{
+	background:url("../image/knopka_zamoviti_korzina_vnizu.png") no-repeat;
+	width:220px;
+	height:35px;
+	position:relative;
+	left:450px;
+	font-weight:bold;
+	color:white;
+}
+.about_all_in{
+	position:relative;
+	left:200px;
+}
+.delivery{
+	margin-left:40px;
+	padding-top:40px;
+	color:silver;
+	width:480px;
+}
+.title_in_cart{
+	margin-top:40px;
+	font-size:25px;
+}
+.all_title_in_cart{
+	margin-left:40px;
+}
+.size_big_cart{
+	position:relative;
+	left:360px;
+	bottom:90px;
+	width:140px;
+}
+.price_one{
+	position:relative;
+	left:600px;
+	bottom:140px;
+	width:20px;
+}
+.th_cart{
+	position:relative;
+	left:-10px;
+	padding-right:40px;
+	border-spacing:7px 11px;
+	font-weight:bold;
+}
+.th_cart1{
+	position:relative;
+	left:-10px;
+	padding-right:90px;
+}
+.th_cart2{
+	width:40px;
+}
+.ttls{
+	position:relative;
+	left:160px;
+	bottom:20px;
+	width:550px;
+}
+.titles_big_cart{
+	position:relative;
+	left:150px;
+	width:70px;
+	bottom:55px;
+}
+.price_big_cart{
+	position:relative;
+	left:300px;
+	width:30px;
+	bottom:70px;
+}
+.how_m_big_cart{
+	position:relative;
+	left:500px;
+	bottom:110px;
+}
+.how_m_btn_big_cart{
+	position:relative;
+	left:500px;
+	bottom:107px;
+}
+.delete_cart_big_cart{
+	position:relative;
+	left:650px;
+	bottom:167px;
+}
+.slash{
+	background-color:red;
+	width:650px;
+	height:4px;
+}
+.slash1{
+	background-color:red;
+	width:650px;
+	height:4px;
+	position:relative;
+	bottom:100px;
+}
+.cart_price{
+	position:absolute;
+	margin-left:210px;
+	color:white;
+	margin-top:7px;
+}
+.mainheader{
+	width:100%;
+	height:35px;
+	margin:0px auto;
+    z-index:0;
+}
+.lan{
+	text-decoration:none;
+	position:relative;
+}
+.bg-header{
+	margin-top:35px;
+	margin-left:22%;
+	padding-bottom:35px;
+	width:755px;
+	height:30px;
+}
+.header_mobile{
+	display:none;
+}
+.made_someone{
+	display:none;
+}
+.mob_thing{
+	display:none;
+}
+.menu{
+	background-color:#000000;
+	width:120px;
+	height:22px;
+	float:left;
+	padding-top:5px;
+	text-align:center;
+	color:white;
+	font-size:15px;
+	text-decoration:none;
+	font-family:Arial;
+}
+.made_another{
+	background-color:#ff5857;
+	width:270px;
+	height:22px;
+	float:left;
+	text-align:center;
+	padding-top:5px;
+	color:white;
+	font-size:15px;
+	text-decoration:none;
+	font-family:Arial;
+}
+.menu:hover{
+	background-color:#ff5857;
+}
+.bg-header_mobile{
+	display:none;
+}
+.menu1{
+	position:relative;
+	top:9px;
+}
+.menu2{
+	position:relative;
+	left:450px;
+}
+.one{
+	display:none;
+}
+.slide_show{
+	padding-top:5px;
+	padding-left:5px;
+}
+.active-menu{
+	background-color:#ff5857;
+	width:150px;
+	float:left;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+}
+.head{
+	background:#000000;
+	height:35px;
+}
+.defheader{
+	height:35px;
+	width:100%;
+	position:fixed;
+    z-index:9999;
+}
+.logo{
+	background:url("../image/logo_pk.png") no-repeat;
+	position:relative;
+	height:70px;
+	margin-left:2%;
+	top:2px;
+	width:560px;
+	top:-17%;
+}
+.image{
+	background-color:#ffffff;
+	height:399px;
+	width:981px;
+	margin-left:14%;
+	padding-bottom:40px;
+}
+.thing_img{
+	margin-left:8px;
+	margin-right:8px;
+	height:355px;
+}
+.made_pizza_someone{
+	margin-bottom:200px;
+	margin-left:40%;
+	margin-top:200px;
+}
+#fg{
+	margin-bottom:240px;
+}
+.rect{
+	background:url("../image/znachok.png") no-repeat;
+	position:absolute;
+	text-align:center;
+	left:25%;
+	font-size:12px;
+	top:2px;
+	height:15px;
+	width:15px;
+}
+@media screen and (max-width: 770px) {
+	.big_cart{
+		margin-left:35%;
+	}
+	.titles_big_cart{
+		font-size:25px;
+	}
+	.price_big_cart{
+		font-size:25px;
+		position:relative;
+	        left:300px;
+	        width:30px;
+	        bottom:80px;
+	}
+	.size_big_cart{
+		font-size:25px;
+		position:relative;
+	        left:360px;
+	        bottom:105px;
+	        width:140px;
+	}
+	.price_one{
+		font-size:25px;
+		position:relative;
+	        left:630px;
+	        bottom:200px;
+	        width:20px;
+	}
+	.how_m_big_cart{
+            font-size:30px;
+	    height:40px;
+	    position:relative;
+	    left:500px;
+	    bottom:150px;
+	}
+	.how_m_btn_big_cart{
+	    height:40px;
+	    width:30px;
+	    position:relative;
+	    left:500px;
+	    bottom:143px;
+	}
+	.delete_cart_big_cart{
+		position:relative;
+	        left:690px;
+	        bottom:227px;
+	}
+	.delivery{
+		font-size:25px;
+	}
+	.about_all_in{
+	        font-size:25px;	
+	}
+	.big_cart_btn{
+		font-size:20px;
+	}
+	.in_cart{
+		font-size:25px;
+	}
+	.delete_from_cart{
+		font-size:25px;
+	}
+	.size_in{
+		font-size:20px;
+	}
+	.rect{
+	background:url("../image/znachok_mobile.png") no-repeat;
+	position:absolute;
+	left:65%;
+	font-size:35px;
+	top:-5px;
+	text-align:center;
+        height:45px;
+        width:45px;	
+	}
+	.wrapper{
+	width:770px;
+    }
+	.thing1{
+	display:none;
+	}
+	.logo{
+		background:url("../image/logo_header2.png") no-repeat;
+	}
+	.main_header{
+		height:70px;
+	}
+	.big_cart{
+		margin-left:80px;
+	}
+	.head{
+		height:70px;
+	}
+	.bg-header{
+	margin-top:30px;
+	margin-left:18%;
+	padding-bottom:30px;
+	width:770px;
+	height:30px;
+    }
+   .slide_show{
+	   display:none;
+   }
+	.logo{
+	margin-left:0px;
+	top:0px;
+    }
+	.menu1{
+		display:none;
+	}
+	.header_mobile{
+	background:url("../image/tsentralniy_logo_z_pidpisom.png") no-repeat;
+	height:210px;
+	margin-top:210px;
+	padding-bottom:210px;
+	margin-left:23%;
+	margin-right:20%;
+	display:block;
+}
+.menu_body{
+	background-color:#ff5857;
+	width:410px;
+	height:55px;
+	float:left;
+	padding-top:5px;
+	text-align:center;
+	color:white;
+	font-size:30px;
+	text-decoration:none;
+	font-family:Arial;
+	margin-top:150px;
+	padding-top:20px;
+}
+	.image{
+	    margin-left:0%;
+		margin-left:10%;
+		width:2px;
+		display:none;
+	}
+	.bg-header{
+		margin-left:23%;
+		margin-top:5px;
+		padding-bottom:5px;
+	}
+	#languages{
+	margin-left:550px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.titles_big_cart{
+		font-size:25px;
+	}
+	.price_big_cart{
+		font-size:25px;
+		position:relative;
+	        left:300px;
+	        width:30px;
+	        bottom:80px;
+	}
+	.size_big_cart{
+		font-size:25px;
+		position:relative;
+	        left:360px;
+	        bottom:105px;
+	        width:140px;
+	}
+	.price_one{
+		font-size:25px;
+		position:relative;
+	        left:630px;
+	        bottom:200px;
+	        width:20px;
+	}
+	.how_m_big_cart{
+            font-size:30px;
+	    height:40px;
+	    position:relative;
+	    left:500px;
+	    bottom:150px;
+	}
+	.how_m_btn_big_cart{
+	    height:40px;
+	    width:30px;
+	    position:relative;
+	    left:500px;
+	    bottom:143px;
+	}
+	.delete_cart_big_cart{
+		position:relative;
+	        left:690px;
+	        bottom:227px;
+	}
+	.big_cart_btn{
+		font-size:20px;
+	}
+	.rect{
+	background:url("../image/znachok_mobile.png") no-repeat;
+	position:absolute;
+	left:65%;
+	font-size:35px;
+	top:-5px;
+	text-align:center;
+        height:45px;
+        width:45px;	
+	}
+	body{
+		overflow-x:visible;
+	}
+	.thing_img{
+		height:884px;
+		width:884px;
+		margin:0px;
+	}
+	.made_someone{
+		margin-top:250px;
+		background-color:white;
+		margin-left:50px;
+		width:662px;
+		padding-right:220px;
+	display:block;
+}
+.thing_img_someone{
+	background:url("../image/products/madesomeone.jpg") no-repeat;
+	height:882px;
+	width:882px;
+}
+	.thing1{
+	display:none;
+	}
+	.wrapper{
+	width:980px;
+    }
+	.logo{
+		height:120px;
+		background:url("../image/logo_header2.png") no-repeat;
+	}
+	.main_header{
+		height:90px;
+	}
+	.head{
+		height:120px;
+	}
+	.bg-header{
+		display:none;
+	}
+	.bg-header_mobile{
+	background-color:black;
+	margin-top:40px;
+	float:right;
+	margin-right:50px;
+	padding-bottom:30px;
+	width:880px;
+	height:45px;
+	display:block;
+    }
+    .menu_mobile{
+	background-color:#000000;
+	width:170px;
+	height:58px;
+	float:left;
+	padding-top:12px;
+	text-align:center;
+	color:white;
+	font-size:31pt;
+	text-decoration:none;
+	font-family:Arial;
+	padding-left:25px;
+	padding-right:25px;
+	}
+	.menu_mobile:hover{
+		background-color:#ff5857;
+	}
+   .slide_show{
+	   display:none;
+   }
+	.logo{
+	margin-left:0px;
+	top:0px;
+    }
+	.menu1{
+		display:none;
+	}
+	.header_mobile{
+	background:url("../image/tsentralniy_logo_z_pidpisom.png") no-repeat;
+	height:210px;
+	margin-top:320px;
+	padding-bottom:510px;
+	margin-left:39%;
+	margin-right:20%;
+	display:block;
+}
+.menu_body{
+	background-color:#ff5857;
+	width:560px;
+	height:75px;
+	float:left;
+	padding-top:0px;
+	text-align:center;
+	color:white;
+	font-size:37px;
+	text-decoration:none;
+	font-family:Arial;
+	margin-top:190px;
+	padding-top:32px;
+	margin-left:12px;
+	font-weight:bold;
+}
+	.image{
+	    margin-left:0%;
+		margin-left:10%;
+		width:2px;
+		display:none;
+	}
+	.bg-header{
+		margin-left:23%;
+		margin-top:5px;
+		padding-bottom:5px;
+	}
+	#languages{
+	margin-left:590px;
+	}
+	
+}
+@media screen and (max-width: 980px) and (min-width:970px){
+	.bg-header_mobile{
+	background-color:black;
+	margin-top:40px;
+	margin-left:-20px;
+	padding-bottom:30px;
+	width:880px;
+	height:40px;
+	display:block;
+	}
+}
+@media screen and (max-width: 970px){
+  .bg-header_mobile{
+	background-color:black;
+	margin-top:40px;
+	margin-left:20px;
+	padding-bottom:30px;
+	width:880px;
+	height:45px;
+	display:block;
+	}
+}
+.all_thing{
+	width:1200px;
+}
+.thing{
+	background-color:#fefefe;
+	height:480px;
+	width:380px;
+	margin-top:40px;
+	margin-left:260px;
+	text-align:center;
+}
+.thing_title{
+	position:relative;
+	font-size:21px;
+	right:100px;
+}
+.thing_description{
+	position:relative;
+	width:50px;
+	color:#898989;
+}
+.size{
+	position:relative;
+	right:120px;
+}
+.thing_btn{
+	background:url("../image/knopka_zamoviti.png") no-repeat;
+	height:70px;
+	position:relative;
+	left:226px;
+	top:7px;
+}
+.thing1{
+	background-color:#fefefe;
+	height:480px;
+	width:380px;
+	margin-top:-480px;
+	margin-left:700px;
+	text-align:center;
+}
+.short_cart{
+	background:url(../image/korzmna.png);
+	color:white;
+	font-size:17px;
+	padding-top:8px;
+	position:relative;
+	left:70%;
+	width:130px;
+	float:left;
+	height:27px;
+	text-decoration:none;
+}
+.cart_img{
+	padding-left:10px;
+	margin-top:-2px;
+}
+.cart_txt{
+	padding-left:40px;
+	margin-top:-22px;
+}
+.short_cart:hover{
+	background-color:#ff5857;
+}
+.active-short_cart{
+	background:url(../image/korzmna.png);
+	color:white;
+	font-size:17px;
+	padding-top:8px;
+	position:relative;
+	left:70%;
+	width:130px;
+	float:left;
+	height:27px;
+	text-decoration:none;
+}
+.short_cart1{
+    background-color:#000000;
+	color:white;
+	font-size:15px;
+	font-family:Arial;
+	position:relative;
+	left:70%;
+	width:100px;
+	float:left;
+	text-align:center;
+	height:35px;
+	text-decoration:none;
+}
+.short_cart1:hover{
+	background-color:#ff5857;
+}
+
+.active-short_cart1{
+	background-color:#ff5857;
+    color:white;
+	font-size:12px;
+	position:relative;
+	left:70%;
+	width:100px;
+	float:left;
+	text-align:center;
+	height:35px;
+	text-decoration:none;
+}
+.underline_header{
+	background: url(../image/underline_header.png) repeat-x;
+	height:35px;
+	width:100%;
+	margin-top:0px;
+	font-size:30px;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+}
+.info{
+	margin-left:11.5%;
+	margin-top:48px;
+	height:200px;
+	width:1100px;
+	margin-bottom:10%;
+}
+.pannels{
+	display:inline-block;
+	background-color:#ff5857;
+	height:127px;
+	width:300px;
+}
+@media screen and (max-width: 770px) { 
+.short_cart1{
+		position:relative;
+		left:70%;
+	}
+	.header{
+		display:block;
+	}
+.short_cart{
+	   background:url(../image/korz.png) no-repeat;
+	   height:45px;
+	   width:60px;
+	   left:84%;
+	   top:10px;
+}
+.active-short_cart{
+	background:url(../image/korz.png) no-repeat;
+	   height:45px;
+	   width:60px;
+	   left:84%;
+	   top:10px;
+}
+.active-short_cart1{
+		left:70%;
+}
+.info{
+	margin-left:0px;
+	margin-top:20px;
+	height:200px;
+	width:73%;
+	display:none;
+}
+.thing{
+	margin-left:70px;
+}
+.thing1{
+	margin-left:500px;
+}
+}
+@media screen and (max-width: 980px) {
+	.thing_title{
+		font-size:49px;
+		font-family:Arial;
+		right:180px;
+	}
+	.size{
+		font-size:48px;
+	}
+	.thing_title_someone{
+		margin-left:30px;
+		margin-top:30px;
+		font-size:49px;
+		font-family:Arial;
+		right:180px;
+	}
+	.thing_description_someone{
+		width:850px;
+		margin-left:30px;
+        font-size:40px;
+        padding-top:60px;
+        font-family:Arial;
+        color:#898989;
+        padding-bottom:40px;
+	}
+	.thing_btn_someone{
+		background:url("../image/knopka_zamoviti2.png") no-repeat;
+		position:relative;
+		left:525px;
+		right:0px;
+		margin-top:-23px;
+		height:75px;
+		width:400px;
+	}
+	.thing_btn{
+		background:url("../image/knopka_zamoviti1.png") no-repeat;
+		margin-left:350px;
+		margin-top:-23px;
+	}
+	.thing{
+		display:none;
+	}
+	.mob_thing{
+		width:75%;
+		height:1200px;
+	}
+.header_mobile{
+	margin-left:21%;
+}
+.thing_description{
+	font-size:20px;
+}
+	.all_thing{
+	width:95%;
+}
+.short_cart1{
+		position:relative;
+		left:70%;
+	}
+	.header{
+		display:block;
+	}
+.short_cart{
+	   background:url(../image/korz.png) no-repeat;
+	   height:82px;
+	   width:110px;
+	   left:88%;
+	   top:16px
+}
+.active-short_cart{
+	background:url(../image/korz.png) no-repeat;
+	   height:82px;
+	   width:110px;
+	   left:88%;
+	   top:16px;
+}
+.active-short_cart1{
+		left:70%;
+}
+.info{
+	margin-left:0px;
+	margin-top:20px;
+	height:200px;
+	width:73%;
+	display:none;
+}
+.mob_thing{
+	background-color:#fefefe;
+	padding-right:185px;
+	margin-left:50px;
+	display:block;
+	text-align:center;
+	margin-top:40px;
+}
+.together_all_thing{
+	margin:0 auto;
+	padding:0 auto;
+}
+.all_thing{
+	padding:0 auto;
+}
+.thing1{
+	margin-left:500px;
+}
+}
+.retreat{
+	width:60px;
+	margin-left:3.1%;
+}
+.panel{
+	display:none;
+}
+.js-panel-open{
+	background-color: rgba(255, 255, 255,1);
+	margin-left:730px;
+	margin-top:40px;
+	min-height:100px;
+	width:430px;
+	display:block;
+	position:absolute;
+}
+.footer{
+	margin-top:-10%;
+	background-color:#000000;
+	height:150px;
+	color:#ffffff;
+	width:100%;
+	z-index:999;
+}
+.main_footer{
+	margin-left:12%;
+	width:100%;
+}
+.about{
+	margin-left:0px;
+}
+li {
+	list-style-type:none;
+}
+ul li{
+	font-family:Arial;
+	display:inline-block;
+}
+.footer_menu{
+	margin-left:76%;
+	position:absolute;
+	margin-top:-18px;
+}
+.sitemap{
+	font-weight:bold;
+	font-size:11px;
+	color:white;
+	padding-left:3px;
+	padding-right:3px;
+	text-decoration:none;
+	font-family:Arial;
+}
+.sitemap:hover{
+	color:black;
+}
+.footer_logo{
+	margin-bottom:2%;
+	margin-left:0%;
+	display:none;
+}
+.telephone{
+	margin-left:14%;
+	font-size:20px;
+}
+.socials{
+	position:relative;
+	left:780px;
+	padding:0 auto;
+	margin-top:0px;
+	width:120px;
+}
+.vk{
+	background:url(../image/ikonka_vk.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:80px;
+	margin-top:-30px;
+}
+.instagram{
+	background:url(../image/ikonka_insta.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:40px;
+	margin-top:-30px;
+}
+.facebook{
+	background:url(../image/ikonka_fs.png) no-repeat;
+	height:30px;
+	display:block;
+}
+.telephone1{
+	margin-top:-23px;
+    margin-left:22%;
+	font-size:20px;
+}
+.language{
+	margin-left:1%;
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:normal;
+}
+#languages{
+	margin-left:44%;
+	margin-top:-60px;
+}
+.together_all_thing{
+	padding-bottom:20%;
+}
+	.info{
+		margin-left:11.5%;
+		width:1100px;
+	}
+.main_footer{
+	margin-left:1%;
+}
+.footer{
+	z-index:999;
+	height:650px;
+}
+.sure{
+	margin-top:12px;
+	padding-top:5px;
+	font-size:24px;
+	width:250px;
+	color:gray;
+	font-family:Arial;
+	display:none;
+}
+.footer_menu{
+	left:-8%;
+	top:-100px;
+	position:relative;
+}
+.sitemap{
+	color:white;
+	text-decoration:none;
+}
+.sitemap:hover{
+	color:black;
+}
+.footer_logo_main{
+	background:url("../image/logo_pk.png") no-repeat;
+	height:50px;
+	position:relative;
+	top:20px;
+	margin-left:-17%;
+	display:block;
+}
+.f{
+	margin-bottom:200px;
+	width:200px;
+}
+.about1{
+	display:block;
+	font-size:20px;
+	margin-top:-50px;
+}
+.footer_line{
+	margin-top:-102px;
+	margin-left:15%;
+	width:70%;
+}
+.telephone{
+	display:block;
+	margin-left:40px;
+	font-size:20px;
+}
+.telephone1{
+	display:block;
+    margin-left:155px;
+	font-size:20px;
+}
+.footer2{
+	margin-top:-20px;
+    margin-left:-14px;
+	background:#ff5857;
+	z-index:999;
+	height:350px;
+	width:100%;
+	margin-right:0px;
+	display:none;
+}
+.socials{
+	margin-left:50px;
+	margin-top:50px;
+}
+.vk{
+	background:url(../image/knopka_tvitter.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:80px;
+	margin-top:-30px;
+}
+.instagram{
+	background:url(../image/knopka_instagram.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:40px;
+	margin-top:-30px;
+}
+.facebook{
+	background:url(../image/knopka_fs.png) no-repeat;
+	height:30px;
+	display:block;
+}
+.about{
+	margin-top:-20px;
+	font-size:27px;
+	margin-left:20px;
+	color:d9dada;
+	font-family:Vernada;
+}
+.footer_logo2{
+	background:url("../image/footer_logo.png") no-repeat;
+	height:100px;
+	margin-top:161px;
+	margin-left:20px;
+}
+.foot{
+	font-family:Arial;
+	text-decoration:none;
+	font-weight:bold;
+	color:#d9dada;
+}
+.foot:hover{
+	color:black;
+}
+.thing_description{
+width:380px;
+font-size:17px;
+}
+.footer{
+	margin-top:-10px;
+	background-color:#000000;
+	height:150px;
+	color:#ffffff;
+	width:1600px;
+	z-index:999;
+}
+.main_footer{
+	margin-left:12%;
+	width:58%;
+}
+.footer_menu{
+	margin-left:76%;
+	margin-top:-20px;
+}
+.sitemap{
+	font-weight:bold;
+	font-size:11px;
+	color:white;
+	padding-left:3px;
+	padding-right:3px;
+	text-decoration:none;
+	font-family:Arial;
+}
+.sitemap:hover{
+	color:black;
+}
+.footer_logo{
+	margin-top:2%;
+	margin-left:0%;
+}
+.telephone{
+	margin-top:-22px;
+	margin-left:43%;
+	font-size:20px;
+}
+.socials{
+	position:relative;
+	left:80%;
+	margin-top:30px;
+}
+.vk{
+	background:url(../image/ikonka_vk.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:80px;
+	margin-top:-30px;
+}
+.instagram{
+	background:url(../image/ikonka_insta.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:40px;
+	margin-top:-30px;
+}
+.facebook{
+	background:url(../image/ikonka_fs.png) no-repeat;
+	height:30px;
+	display:block;
+}
+.telephone1{
+	display:block;
+    margin-left:43%;
+	font-size:20px;
+}
+.br{
+	margin-left:50px;
+	display:block;
+}
+.cbalink{
+display:none;
+}
+@media screen and (max-width: 770px) {
+	body{
+	background:url("../image/fon_mobile1.png") repeat;
+	margin:0;
+	padding:0;
+	}
+	.br{
+	  display:none;	
+	}
+	.about1{
+	   display:none;	
+	}
+	.footer_line{
+		display:none;
+	}
+	.footer_logo_main{
+		display:none;
+	}
+	.short_cart1{
+		display:none;
+	}
+	#languages{
+		margin-left:420px;
+		font-size:16.5pt;
+		margin-top:-50px;
+	}
+	.js-panel-open{
+	  margin-left:320px;
+	  margin-top:74px;
+    }
+	   .underline_header{
+	   margin-top:10px;
+   }
+	.info{
+		margin-left:10%;
+		width:1100px;
+	}
+.main_footer{
+	margin-left:1%;
+}
+.footer{
+	z-index:999;
+	height:550px;
+}
+.sure{
+	margin-top:12px;
+	padding-top:5px;
+	font-size:24px;
+	width:250px;
+	color:gray;
+	font-family:Arial;
+	display:block;
+}
+.footer_menu{
+	margin-left:520px;
+	margin-top:-18px;
+}
+.sitemap{
+	color:white;
+	text-decoration:none;
+}
+.sitemap:hover{
+	color:black;
+}
+.footer_logo{
+	background:url("../image/logo_na_nizhniy_shaptsi.png") no-repeat;
+	height:300px;
+	margin-top:2%;
+	margin-left:0%;
+	display:block;
+}
+.telephone{
+	display:none;
+	margin-left:40px;
+	font-size:20px;
+}
+.telephone1{
+	display:none;
+    margin-left:155px;
+	font-size:20px;
+}
+.footer2{
+	margin-top:-59px;
+    margin-left:-20px;
+	background:#ff5857;
+	z-index:999;
+	height:100%;
+	width:770px;
+	margin-right:60px;
+	display:block;
+}
+.socials{
+	margin-left:50px;
+	margin-top:40px;
+}
+.vk{
+	background:url(../image/knopka_tvitter.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:80px;
+	margin-top:-30px;
+}
+.instagram{
+	background:url(../image/knopka_instagram.png) no-repeat;
+	height:30px;
+	display:block;
+	margin-left:40px;
+	margin-top:-30px;
+}
+.facebook{
+	background:url(../image/knopka_fs.png) no-repeat;
+	height:30px;
+	display:block;
+}
+.about{
+	margin-top:-20px;
+	font-size:27px;
+	margin-left:20px;
+	color:d9dada;
+	font-family:Vernada;
+}
+.footer_menu{
+	margin-left:-30px;
+	width:130px;
+	margin-top:130px;
+	margin-right:100px;
+	font-family:Vernada;
+}
+.footer_logo2{
+	background:url("../image/footer_logo.png") no-repeat;
+	height:100px;
+	margin-top:145px;
+	margin-left:20px;
+}
+.sitemap{
+	color:d9dada;
+	font-size:30px;
+	font-family:Arial;
+	text-decoration:none;
+	padding-bottom:10px;
+}
+}
+@media screen and (max-width: 980px) {
+	.br{
+	  display:none;	
+	}
+	.about1{
+	   display:none;	
+	}
+	.footer_line{
+		display:none;
+	}
+	.underline_header{
+		background-color:#ff5857;
+		height:90px;
+		margin-top:85px;
+		width:980px;
+		font-size:45px;
+		padding-top:30px;
+		font-family:Arial;
+	}
+	.short_cart1{
+		display:none;
+	}
+	#languages{
+		margin-left:590px;
+		font-size:27.5pt;
+		margin-top:-70px;
+	}
+	.js-panel-open{
+	  margin-left:370px;
+	  width:600px;
+	  margin-top:122px;
+    }
+    .md_sm_title{
+	    font-size:30px;
+    }
+    .md_sm_btn{
+	    font-size:30px;
+	    height:40px;
+    }
+    .onion{
+	    height:;
+    }
+    .how_m{
+	    font-size:30px;
+	    height:40px;
+    }
+    .how_m_btn{
+	    height:40px;
+	    width:30px;
+    }
+	.info{
+		margin-left:10%;
+		width:1100px;
+		margin-bottom:20%;
+	}
+.main_footer{
+	margin-left:1%;
+}
+.footer{
+	z-index:999;
+	height:750px;
+}
+.onion,.Mozarella,.Ham,.Salami,.Sprat,.Tuna,.Pepper{
+-ms-transform: scale(2);
+-moz-transform: scale(2); 
+-o-transform: scale(2); 
+height: 28px; 
+width: 28px
+}
+.delete_cart{
+	font-size:30px;
+}
+.sure{
+	margin-top:25px;
+	padding-top:5px;
+	margin-left:5%;
+	font-size:39px;
+	width:410px;
+	color:gray;
+	font-family:Arial;
+	display:block;
+}
+.footer_menu{
+	margin-left:520px;
+	margin-top:-18%;
+}
+.sitemap{
+	color:white;
+	text-decoration:none;
+}
+th{
+	font-size:25px;
+}
+.titles{
+	font-size:25px;
+}
+.footer_logo{
+	background:url("../image/logo_na_nizhniy_shaptsi.png") no-repeat;
+	height:300px;
+	margin-top:10%;
+	margin-left:3%;
+	display:block;
+}
+.telephone{
+	display:none;
+	margin-left:40px;
+	font-size:20px;
+}
+.telephone1{
+	display:none;
+    margin-left:155px;
+	font-size:20px;
+}
+.footer{
+	width:980px;
+}
+.footer2{
+	margin-top:-30px;
+    margin-left:-18px;
+	background:#ff5857;
+	z-index:999;
+	height:400px;
+	width:990px;
+	margin-right:60px;
+	display:block;
+}
+.socials{
+	width:200px;
+	margin-left:-410px;
+	margin-top:100px;
+}
+.vk{
+	background:url(../image/knopka_tvitter.png) no-repeat;
+	height:50px;
+	display:block;
+	margin-left:120px;
+	margin-top:-50px;
+}
+.instagram{
+	background:url(../image/knopka_instagram.png) no-repeat;
+	height:50px;
+	display:block;
+	margin-left:55px;
+	margin-top:-50px;
+}
+.facebook{
+	background:url(../image/knopka_fs.png) no-repeat;
+	height:50px;
+	display:block;
+}
+.about{
+	margin-top:-10px;
+	font-size:37px;
+	margin-left:60px;
+	color:d9dada;
+	font-family:Arial;
+}
+.thing_description{
+width:850px;
+font-size:40px;
+padding-top:20px;
+font-family:Arial;
+color:#898989;
+}
+.footer_menu{
+	margin-left:5px;
+	width:180px;
+	margin-top:16%;
+	margin-right:100px;
+	font-family:Arial;
+}
+.footer_logo2{
+	background:url("../image/footer_logo.png") no-repeat;
+	height:100px;
+	margin-top:145px;
+	margin-left:60px;
+}
+li.sitemap{
+	color:d9dada;
+	font-size:25.5pt;
+	margin-top:4px;	
+	font-weight:normal;
+}
+.foot{
+	font-family:Arial;
+	text-decoration:none;
+	color:#d9dada;
+}
+.foot:hover{
+	color:black;
+}
+.footer_menu{
+	position:relative;
+	top:-50px;
+	left:-30px;
+}
+.header_mobile{
+    width:610px;
+}
+}
+
+@media screen and (max-width: 1024px) and (min-width:980px) { 
+   .underline_header{
+	   width:1400px;
+   }
+   .header{
+	   margin-left:70px;
+   }
+   .info{
+	   margin-left:170px;
+   }
+   .socials{
+	margin-left:300px;   
+   }
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width: 320px) {
+	.image{
+		display:none;
+	}
+	.bg-header{
+		width:100px;
+	}
+	.menu{
+	background-color:#181715;
+	width:100px;
+	float:left;
+	text-align:center;
+	color:white;
+	font-size:12px;
+	text-decoration:none;
+	
+}
+.menu:hover{
+	background-color:#ff5857;
+}
+}

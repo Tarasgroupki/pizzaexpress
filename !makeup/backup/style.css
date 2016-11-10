@@ -1,0 +1,135 @@
+﻿body{
+	background:url("../image/fon.jpg") no-repeat;
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	
+}
+.mainheader{
+	width:1349px;
+	height:40px;
+	margin:0px auto;
+  z-index:0;
+}
+.bg-header{
+	margin-top:30px;
+	margin-left:150px;
+	background-color:#181715;
+	width:1050px;
+	height:30px;
+}
+.menu{
+	background-color:#181715;
+	width:150px;
+	float:left;
+	text-align:center;
+	color:white;
+	font-size:25px;
+}
+.menu:hover{
+	background:#ff5857;
+}
+.head{
+	background:#181715;
+	height:40px;
+	
+	
+}
+.defheader{
+	height:40px;
+	width:1349px;
+	position: fixed;
+    z-index: 9999;
+}
+.logo1{
+	color:#ef2f02;
+	padding-right:10px;
+}
+.logo2{
+	color:#ffffff;
+}
+.logo{
+	position:relative;
+	margin-left:250px;
+	top:10px;
+}
+.image{
+	background-color:#ffffff;
+	height:350px;
+	width:1050px;
+	margin-left:150px;
+	padding-bottom:40px;
+}
+.all_thing{
+	width:1200px;
+	
+}
+.thing{
+	background-color:#fefefe;
+	height:480px;
+	width:380px;
+	margin-top:50px;
+	margin-left:200px;
+	text-align:center;
+}
+.thing:hover{
+background-color:#ffffd6
+}
+.thing1:hover{
+background-color:#ffffd6;
+}
+.thing_title{
+	position:relative;
+	font-size:21px;
+	right:120px;
+}
+.thing_description{
+	position:relative;
+	width:50px;
+}
+.size{
+	position:relative;
+	right:120px;
+}
+.thing_btn{
+	background:url("../image/knopka_zamoviti.png") no-repeat;
+	height:70px;
+	position:relative;
+	left:220px;
+	top:11px;
+}
+.thing1{
+	background-color:#fefefe;
+	height:480px;
+	width:380px;
+	margin-top:-480px;
+	margin-left:700px;
+	text-align:center;
+}
+.short_cart{
+	background-color:gray;
+	color:white;
+	font-size:12px;
+	position:relative;
+	left:1100px;
+	width:100px;
+	float:left;
+	text-align:center;
+	height:40px;
+}
+.short_cart:hover{
+	background-color:#ff5857;
+}
+.panel{
+	display:none;
+}
+.js-panel-open{
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-left:820px;
+	margin-top:40px;
+	min-height:100px;
+	width:370px;
+	display:block;
+	position:absolute;
+}

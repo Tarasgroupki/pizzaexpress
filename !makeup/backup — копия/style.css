@@ -1,0 +1,277 @@
+﻿body{
+	background:url("../image/fon.jpg") no-repeat;
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	
+}
+.mainheader{
+	width:100%;
+	height:40px;
+	margin:0px auto;
+    z-index:0;
+}
+.bg-header{
+	margin-top:30px;
+	margin-left:18%;
+	padding-bottom:30px;
+	width:1050px;
+	height:30px;
+}
+.menu{
+	background-color:#181715;
+	width:120px;
+	float:left;
+	text-align:center;
+	color:white;
+	font-size:21px;
+	text-decoration:none;
+	font-family:Arial;
+}
+.made_another{
+	background-color:#ff5857;
+	width:360px;
+	float:left;
+	text-align:center;
+	color:white;
+	font-size:21px;
+	text-decoration:none;
+	font-family:Arial;
+}
+.menu:hover{
+	background-color:#ff5857;
+}
+.menu1{
+	position:relative;
+	top:12px;
+}
+.menu2{
+	position:relative;
+	left:450px;
+}
+.one{
+	display:none;
+}
+.slide_show{
+	padding-top:5px;
+	padding-left:5px;
+}
+.active-menu{
+	background-color:#ff5857;
+	width:150px;
+	float:left;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+}
+.head{
+	background:#181715;
+	height:40px;
+}
+.defheader{
+	height:40px;
+	width:100%;
+	position: fixed;
+    z-index: 9999;
+}
+.logo{
+	background:url("../image/logotype.png") no-repeat;
+	position:relative;
+	height:70px;
+	margin-left:150px;
+	top:2px;
+	width:380px;
+}
+.image{
+	background-color:#ffffff;
+	height:470px;
+	width:960px;
+	margin-left:190px;
+	padding-bottom:40px;
+}
+.all_thing{
+	width:1200px;
+}
+.thing{
+	background-color:#fefefe;
+	height:480px;
+	width:380px;
+	margin-top:30px;
+	margin-left:260px;
+	text-align:center;
+}
+.thing_title{
+	position:relative;
+	font-size:21px;
+	right:120px;
+}
+.thing_description{
+	position:relative;
+	width:50px;
+}
+.size{
+	position:relative;
+	right:120px;
+}
+.thing_btn{
+	background:url("../image/knopka_zamoviti.png") no-repeat;
+	height:70px;
+	position:relative;
+	left:220px;
+	top:11px;
+}
+.thing1{
+	background-color:#fefefe;
+	height:480px;
+	width:380px;
+	margin-top:-480px;
+	margin-left:700px;
+	text-align:center;
+}
+.short_cart{
+	background-color:#ff5857;
+	color:white;
+	font-size:15px;
+	position:relative;
+	left:900px;
+	width:100px;
+	float:left;
+	text-align:center;
+	height:40px;
+	text-decoration:none;
+}
+.short_cart:hover{
+	background-color:#ff5857;
+}
+.active-short_cart{
+	background-color:#ff5857;
+    color:white;
+	font-size:19px;
+	position:relative;
+	left:900px;
+	width:100px;
+	float:left;
+	text-align:center;
+	height:40px;
+	text-decoration:none;
+}
+.short_cart1{
+    background-color:#181715;
+	color:white;
+	font-size:17px;
+	font-family:Arial;
+	position:relative;
+	left:900px;
+	width:100px;
+	float:left;
+	text-align:center;
+	height:40px;
+	text-decoration:none;
+}
+.short_cart1:hover{
+	background-color:#ff5857;
+}
+
+.active-short_cart1{
+	background-color:#ff5857;
+    color:white;
+	font-size:12px;
+	position:relative;
+	left:900px;
+	width:100px;
+	float:left;
+	text-align:center;
+	height:40px;
+	text-decoration:none;
+}
+.underline_header{
+	background-color:#ff5857;
+	height:40px;
+	margin-top:0px;
+	display:block;
+	font-size:35px;
+	color:white;
+	text-align:center;
+}
+.info{
+	margin-left:180px;
+	margin-top:20px;
+	height:200px;
+	width:1100px;
+}
+.pannels{
+	display:inline-block;
+	background-color:#ff5857;
+	height:135px;
+	width:300px;
+}
+.retreat{
+	width:50px;
+	margin-left:20px;
+}
+.panel{
+	display:none;
+}
+.js-panel-open{
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-left:730px;
+	margin-top:40px;
+	min-height:100px;
+	width:370px;
+	display:block;
+	position:absolute;
+}
+.footer{
+	margin-top:20px;
+	background-color:#181715;
+	height:150px;
+	color:#ffffff;
+}
+.main_footer{
+	margin-left:150px;
+}
+.about{
+	margin-left:0px;
+}
+li {
+	list-style-type: none;
+}
+ul li{
+	font-family:Arial;
+	display:inline-block;
+}
+.footer_menu{
+	margin-left:820px;
+	margin-top:-20px;
+}
+.sitemap{
+	color:white;
+	text-decoration:none;
+	
+	}
+.sitemap:hover{
+	color:black;
+}
+.footer_logo{
+	margin-top:2%;
+	margin-left:0%;
+}
+.telephone{
+	margin-left:240px;
+	font-size:20px;
+}
+.telephone1{
+    margin-left:355px;
+	font-size:20px;
+}
+.language{
+	margin-left:10px;
+	color:#ffffff;
+	font-family:Arial;
+}
+#languages{
+	margin-left:470px;
+	margin-top:-60px;
+}
